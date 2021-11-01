@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+
+	<style type="text/css">
+		#ornitorrinco{
+			display: none;
+		}
+	</style>
+
+	<style type="text/css">
+		#pez{
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<p class="pas4">¿Tu animal tiene pico?</p>
+
+	<button type="button"onclick="mostrarornitorrinco();" class="boton6"> SI</button>
+	<div id="ornitorrinco">
+		
+		<p class="pas1">Tu animal es una ornitorrinco </p>
+	</div>
+
+	<script type="text/javascript">
+		function mostrarornitorrinco() {
+
+			document.getElementById('ornitorrinco').style.display= 'block';
+			
+		}
+	</script>
+
+	<button type="button"onclick="mostrarpez();" class="boton5"> NO</button>
+	<div id="pez">
+		
+		<p class="pas5">Tu animal es un pez </p>
+	</div>
+
+	<script type="text/javascript">
+		function mostrarpez() {
+
+			document.getElementById('pez').style.display= 'block';
+			
+		}
+	</script>
+
+</body>
+</html>

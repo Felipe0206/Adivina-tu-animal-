@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+
+	<style type="text/css">
+		#jirafa{
+			display: none;
+		}
+	</style>
+
+	<style type="text/css">
+		#serpiente{
+			display: none;
+		}
+	</style>
+	
+	
+</head>
+<body>
+	
+
+	<p class="pas4">¿Tu animal tiene patas lasgas?</p>
+	<button type="button"onclick="mostrarjirafa();" class="boton6" > SI</button>
+	<div id="jirafa">
+		
+		<p class="pas1" >Tu animal es una jirafa </p>
+	</div>
+
+	<script type="text/javascript">
+		function mostrarjirafa() {
+
+			document.getElementById('jirafa').style.display= 'block';
+			
+		}
+	</script>
+
+
+
+	<button type="button"onclick="mostrarserpiente();" class="boton5"> NO</button>
+	<div id="serpiente">
+		
+		<p class="pas5">Tu animal es una serpiente </p>
+	</div>
+
+	<script type="text/javascript">
+		function mostrarserpiente() {
+
+			document.getElementById('serpiente').style.display= 'block';
+			
+		}
+	</script>
+
+	
+
+	
+</body></html>
